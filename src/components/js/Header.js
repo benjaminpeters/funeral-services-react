@@ -10,8 +10,7 @@ class Header extends Component {
               <div className="nav-holder">
                 <div id="top-logo" className="logo order1"><img
                  src={logo}
-                   alt="funeral-services-logo"/></div>
-                <div className="col order1">
+                   alt="funeral-services-logo"/>
                 </div>
                 <nav id="nav" className="text-uppercase order2">
                   <ul className="main-navigation">
