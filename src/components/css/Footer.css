@@ -1,0 +1,43 @@
+#footer{
+    position:relative;
+    z-index:1;
+    color:#fff;
+    font-size:10px;
+    line-height:1.8;
+    letter-spacing:1.53px;
+    padding-top:11px;
+    padding-bottom:10px
+}
+#footer:before{
+    position:absolute;
+    content:"";
+    top:0;
+    bottom:0;
+    left:-9999px;
+    right:-9999px
+}
+@media (min-width:768px){
+    #footer{
+        font-size:12px;
+        line-height:1.83333;
+        padding-top:18px;
+        padding-bottom:20px
+    }
+}
+#footer:before{
+    z-index:-1;
+    background-color:#000
+}
+#footer .sep{
+    margin-right:6px;
+    margin-left:6px
+}
+#footer p{
+    margin:0
+}
+#footer p a{
+    color:inherit
+}
+#footer p a:hover{
+    color:#d2b572
+}

@@ -10,7 +10,7 @@ class Main extends Component {
       <div className="main">
         <img src={mainimage} width="100%"/>
       </div>
-    )
+    );
   }
 }
 

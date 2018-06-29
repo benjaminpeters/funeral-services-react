@@ -1,14 +1,6 @@
 html{
     box-sizing:border-box
 }
-body{
-    color:#000;
-    background:#fff;
-    font:14px/1.57143 brandon-grotesque,Arial,Helvetica,sans-serif;
-    min-width:320px;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale
-}
 a{
     background-color:transparent
 }
