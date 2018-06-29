@@ -58,6 +58,7 @@ img{
     margin-right:auto;
     padding-right:24px;
     padding-left:24px;
+    text-align: center;
 }
 .container:after{
     clear:both;
@@ -294,4 +295,8 @@ img{
     .support-navigation>li>a:hover{
         color:#d3b66d
     }
+}
+
+.header-main{
+  /* text-align: center; */
 }
