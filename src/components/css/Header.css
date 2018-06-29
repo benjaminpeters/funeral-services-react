@@ -2,15 +2,18 @@ html{
     box-sizing:border-box
 }
 a{
-    background-color:transparent
+    background-color:transparent;
+    color:#d3b66d;
+    text-decoration:none;
+    transition:.3s ease;
+    transition-property:color,background,border,visibility,opacity,box-shadow,-webkit-transform;
+    transition-property:color,background,border,visibility,opacity,box-shadow,transform;
+    transition-property:color,background,border,visibility,opacity,box-shadow,transform,-webkit-transform
+
 }
-a:active,a:hover{
+a:active{
     outline:0;
     color:#a88632
-}
-a{
-    color:#d3b66d;
-    text-decoration:none
 }
 .main-navigation,.support-navigation{
     list-style:none;
