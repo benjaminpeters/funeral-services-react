@@ -1,0 +1,174 @@
+.arrangement-holder{
+
+}
+.intro-block{
+    padding-top:15px;
+    padding-bottom:49px;
+    position: absolute;
+}
+@media (min-width:768px){
+    .intro-block{
+        padding-top:49px;
+        padding-bottom:70px
+    }
+}
+@media (min-width:1221px){
+    .intro-block{
+        padding-top:89px;
+        padding-bottom:101px
+    }
+}
+@media (min-width:768px){
+    .intro-block .holder{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction:normal;
+        -webkit-flex-flow:row wrap;
+        -ms-flex-flow:row wrap;
+        flex-flow:row wrap;
+        margin-right:-24px;
+        margin-left:-24px
+    }
+}
+@media (min-width:768px){
+    .intro-block .col{
+        padding-right:24px;
+        padding-left:24px
+    }
+}
+@media (min-width:768px){
+    .intro-block .col6{
+        width:50%
+    }
+}
+.broucher-block{
+    position:relative;
+    z-index:3;
+    background-image:linear-gradient(180deg,#f3f2f2,#f3f2f2),linear-gradient(90deg,#d2b572,#d2b572),linear-gradient(90deg,#d2b572,#d2b572);
+    background-size:100% calc(100% - 16px),92.2% 8px,92.2% 8px;
+    background-position:50% 50%,100% 0,0 100%;
+    background-repeat:no-repeat;
+    margin:-20px 0 0 101px;
+    padding:42px 24px 49px;
+    transition:background-size 2s
+}
+media (min-width:768px){
+    .broucher-block{
+        background-size:100% calc(100% - 20px),85.5% 10px,85.5% 10px;
+        margin:-20px 0 0 -11px;
+        padding:42px 24px 49px
+    }
+}
+@media (min-width:1024px){
+    .broucher-block{
+      margin:-20px 0 0 101px;
+      padding:42px 24px 49px
+    }
+}
+@media (min-width:1221px){
+    .broucher-block{
+      margin:-20px 0 0 101px;
+      padding:42px 24px 49px
+    }
+}
+@media (min-width:768px){
+    .broucher-block .block-holder{
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:-ms-flexbox;
+        display:flex;
+        -webkit-box-align:start;
+        -webkit-align-items:flex-start;
+        -ms-flex-align:start;
+        align-items:flex-start;
+        -webkit-box-orient:horizontal;
+        -webkit-box-direction:normal;
+        -webkit-flex-flow:row nowrap;
+        -ms-flex-flow:row nowrap;
+        flex-flow:row nowrap;
+        -webkit-box-pack:justify;
+        -webkit-justify-content:space-between;
+        -ms-flex-pack:justify;
+        justify-content:space-between;
+        width:100%
+    }
+}
+.broucher-block h2{
+    margin:0 0 17px
+}
+@media (min-width:768px){
+    .broucher-block h2{
+        border-bottom:2px solid #000;
+        margin:0 0 32px -35px;
+        padding:0 24px 31px
+    }
+}
+@media (min-width:1024px){
+    .broucher-block h2{
+        margin:0 0 32px -50px;
+        padding:0 24px 31px 50px
+    }
+}
+
+@media (min-width:768px){
+    .broucher-block .description-wrap{
+        max-width:53%;
+        padding-left:11px
+    }
+}
+@media (min-width:1024px){
+    .broucher-block .description-wrap{
+        max-width:278px
+    }
+}
+@media (min-width:768px){
+    .broucher-block .btn-holder{
+        padding:27px 0 0 12px
+    }
+}
+@media (min-width:1024px){
+    .broucher-block .btn-holder{
+        /* padding-top:57px */
+    }
+}
+@media (min-width:768px){
+    .broucher-block .btn{
+        min-width:200px
+    }
+}
+.broucher-block .btn-holder{
+    width:100%;
+    list-style-type: none;
+}
+@media (min-width:768px){
+    .broucher-block .btn-holder{
+        /* padding:27px 0 0 12px */
+    }
+}
+@media (min-width:1024px){
+    .broucher-block .btn-holder{
+        /* padding-top:57px */
+    }
+}
+.btn{
+    display:inline-block;
+    vertical-align:top;
+    text-align:center;
+    text-transform:uppercase;
+    font:400 13px/1.1 Arial,Helvetica,sans-serif;
+    letter-spacing:3.2px
+}
+.btn-default{
+    border:1px solid #4a4a4a;
+    color:#000;
+    background-color:transparent;
+    padding:13px 12px 11px
+}
+.btn-default:hover{
+    background-color:#4a4a4a;
+    color:#fff;
+    border-color:#4a4a4a
+}

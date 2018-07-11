@@ -17,9 +17,12 @@ class Header extends Component {
           <header id="header">
                   <div className="header-inner container">
                     <div className="nav-holder">
-                      <div id="top-logo" className="logo order1"><img
-                       src={logo}
-                         alt="funeral-services-logo"/>
+                      <div id="top-logo" className="logo order1">
+                        <Link to="/">
+                          <img
+                           src={logo}
+                             alt="funeral-services-logo"/>
+                         </Link>
                       </div>
                       <nav id="nav" className="text-uppercase order2">
                         <ul className="main-navigation">

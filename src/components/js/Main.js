@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import MakeArrganements from './Make-Arrangements';
+
 import '../css/Main.css';
 import mainimage from '../../assets/images/funeral-services-home.jpg';
 
@@ -7,7 +9,8 @@ import mainimage from '../../assets/images/funeral-services-home.jpg';
 class Main extends Component {
   render() {
     return (
-      <div className="main">
+      <div className="main-page">
+        <MakeArrganements/>
         <img src={mainimage} width="100%"/>
       </div>
     );
