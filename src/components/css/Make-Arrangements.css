@@ -65,13 +65,13 @@ media (min-width:768px){
 @media (min-width:1024px){
     .broucher-block{
       margin:-20px 0 0 101px;
-      padding:42px 24px 49px
+      padding:42px 54px 49px
     }
 }
 @media (min-width:1221px){
     .broucher-block{
       margin:-20px 0 0 101px;
-      padding:42px 24px 49px
+      padding:42px 64px 49px
     }
 }
 @media (min-width:768px){
