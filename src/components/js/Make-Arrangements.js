@@ -3,6 +3,11 @@ import React, { Component } from 'react';
 import '../css/Make-Arrangements.css';
 
 class MakeArrganements extends Component {
+
+  onItemClick (event) {
+      console.log("click");
+  }
+
   render() {
     return (
       <div className="intro-block col col6">
@@ -13,11 +18,11 @@ class MakeArrganements extends Component {
             </div>
           </div>
           <ul className="btn-holder">
-              <li>
-                <a href="#" className="btn btn-default">IMMEDIATE HELP</a>
+              <li className="btn btn-default" onClick={this.onItemClick}>
+                IMMEDIATE HELP
               </li>
-              <li>
-                <a href="#" className="btn btn-default">PLAN AHEAD</a>
+              <li className="btn btn-default" onClick={this.onItemClick}>
+                PLAN AHEAD
               </li>
             </ul>
         </article>
