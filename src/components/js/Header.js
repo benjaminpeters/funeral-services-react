@@ -39,10 +39,6 @@ class Header extends Component {
                             <Link to="/contact">Contact</Link>
                           </li>
                         </ul>
-                        <ul className="support-navigation">
-                          <li><a className="login" href="#">LOG IN</a></li>
-                          <li><a className="signup" href="#">SIGN UP</a></li>
-                        </ul>
                       </nav>
                     </div>
                   </div>
