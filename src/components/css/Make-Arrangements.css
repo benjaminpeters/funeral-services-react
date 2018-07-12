@@ -1,8 +1,8 @@
 .intro-block{
     padding-top:15px;
     padding-bottom:49px;
-    width: 600px;
     position: absolute;
+    transition: width 100ms ease-in-out;
 }
 @media (min-width:768px){
     .intro-block{
